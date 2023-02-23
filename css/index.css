@@ -1,0 +1,49 @@
+body {
+    background-image: url('../images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* position: relative; */
+}
+
+.main {
+    position: relative;
+}
+
+.tit {
+    position: absolute;
+    left: 5%;
+    top: 30px;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #a262a2;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.words {
+    position: absolute;
+    left: 25%;
+    top: 350px;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.words a {
+    color: #a262a2;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.words a:hover {
+    color: #FD93A9;
+}
+
+.main img {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    width: 500px;
+}

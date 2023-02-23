@@ -1,0 +1,51 @@
+.med-tit {
+    font-size: 27px;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: #9999ff;
+    padding: 70px 0 5px 0;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f3f3f3;
+    position: relative;
+}
+
+.med-tit:after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 1px;
+    background: #9999ff;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+
+.grid-container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-row-gap: 20px;
+    grid-column-gap: 5px;
+}
+
+.grid-item {
+    width: 400px;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+
+.grid-item img {
+    width: 400px;
+    height: 270px;
+    transition: all 0.5s;
+    padding-bottom: 30px;
+}
+
+.grid-item:hover img {
+    /*鼠标悬停图片放大*/
+    transform: scale(1.2);
+}

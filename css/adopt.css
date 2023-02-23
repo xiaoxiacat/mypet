@@ -1,0 +1,53 @@
+.con-tit {
+    padding: 70px;
+    text-align: center;
+}
+
+.con-box ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.con-box ul li {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.con-box ul li p {
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 20px;
+    background: #a262a2;
+    margin-left: 80px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.con-box ul li span {
+    display: block;
+    margin-left: 85px;
+    margin-top: 5px;
+}
+
+.con-box ul li button {
+    margin-left: 75px;
+    margin-top: 5px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    width: 100px;
+    background: transparent;
+    border-bottom: 2px solid #333;
+}
+
+.con-box ul li button:hover {
+    border-bottom: 2px solid #a262a2;
+    transform: translateY(-5px);
+}
+
+.con-box img {
+    width: 250px;
+    border-radius: 50%;
+}

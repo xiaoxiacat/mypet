@@ -1,0 +1,31 @@
+.container {
+    font-size: 14px;
+}
+
+.container img {
+    width: 180px;
+}
+
+.cat1-main,
+.cat2-main {
+    display: flex;
+    color: #333;
+}
+
+/* 猫种类 */
+.cat-tit {
+    line-height: 50px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    color: #333;
+}
+
+/* 左边图，右边文字 */
+.cat1-main .fl {
+    margin-right: 60px;
+}
+
+/* 左边文字，右边图 */
+.cat2-main .fl {
+    margin-right: 60px;
+}
