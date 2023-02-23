@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>猫咪客栈</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/myindex.css">
+</head>
+
+<body>
+    <!-- 头部区域start -->
+    <div class="header">
+        <div class="w">
+            <div class="fl">
+                <div class="title fl">
+                    猫咪客栈
+                </div>
+                <ul class="fl father">
+                    <li><a href="myindex.html" class="ico1">首页</a></li>
+                    <li><a href="introduce.html" class="ico3">猫咪介绍</a></li>
+                    <li><a href="adopt.html" class="ico4">猫咪领养</a></li>
+                    <li><a href="medical.html" class="ico5">医疗服务</a></li>
+                    <li><a href="shopping.html" class="ico2">猫咪商城</a></li>
+                </ul>
+            </div>
+            <div class="fr">
+                <div class="search">
+                    <div class="logo">
+                        <a href="myindex.html"><img src="images/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="login">
+                    <a href="signup.html">登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 头部区域end -->
+
+    <!-- 主体区域start -->
+    <div class="main">
+        <!-- 轮播图 -->
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/bg5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/bg.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/bg3.jpg" alt=""></div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <!-- <div class="swiper-pagination"></div> -->
+
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- 如果需要滚动条 -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <div class="words">
+            <h2>欢迎来到<span>猫咪客栈</span></h2>
+        </div>
+        <div class="down">
+            <img src="images/down.png" alt="">
+        </div>
+    </div>
+    <!-- 主体区域end -->
+
+    <!-- 猫咪展示strat -->
+    <div class="show_box w">
+        <div class="bh_show">
+            <h1>猫咪展示</h1>
+        </div>
+        <div class="bd_show">
+            <ul>
+                <li><img src="images/c1.png" alt="">
+                    <h2>三花猫</h2>
+                </li>
+                <li><img src="images/c3.png" alt="">
+                    <h2>大橘</h2>
+                </li>
+                <li><img src="images/c4.png" alt="">
+                    <h2>奶牛猫</h2>
+                </li>
+                <li><img src="images/c5.png" alt="">
+                    <h2>白猫</h2>
+                </li>
+                <li><img src="images/c6.png" alt="">
+                    <h2>狸花猫</h2>
+                </li>
+                <li><img src="images/c12.png" alt="">
+                    <h2>缅因猫</h2>
+                </li>
+                <li><img src="images/c11.png" alt="">
+                    <h2>美短猫</h2>
+                </li>
+                <li><img src="images/c14.png" alt="">
+                    <h2>英短蓝白</h2>
+                </li>
+                <li><img src="images/c10.png" alt="">
+                    <h2>蓝猫</h2>
+                </li>
+                <li><img src="images/c15.png" alt="">
+                    <h2>金渐层</h2>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 猫咪展示end -->
+
+    <!-- 尾部区域start -->
+    <footer>
+        <div class="mod_copyright">
+            <div class="copyright">
+                Please take care of your pets<br>
+                Copyright@2021-2022 My Cats 版权所有
+            </div>
+        </div>
+    </footer>
+    <!-- 尾部区域end -->
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper', {
+            direction: 'horizontal', // 水平切换选项
+            loop: true, // 循环模式选项
+            autoplay: true, // 自动切换
+            effect: 'fade',
+            keyboard: true, // 开启键盘来控制Swiper切换。
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'progressbar',
+            },
+
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // 如果需要滚动条
+            scrollbar: {
+                el: '.swiper-scrollbar',
+
+            },
+        })
+    </script>
+</body>
+
+</html>
